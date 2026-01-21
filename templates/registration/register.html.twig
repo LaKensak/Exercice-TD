@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'registration.title'|trans }}{% endblock %}
+
+{% block body %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h1>{{ 'registration.title'|trans }}</h1>
+        {{ form_start(form) }}
+            <div class="mb-3">
+                {{ form_label(form.email) }}
+                {{ form_widget(form.email) }}
+                {{ form_errors(form.email) }}
+            </div>
+            <div class="mb-3">
+                {{ form_label(form.password.first) }}
+                {{ form_widget(form.password.first) }}
+            </div>
+            <div class="mb-3">
+                {{ form_label(form.password.second) }}
+                {{ form_widget(form.password.second) }}
+                {{ form_errors(form.password) }}
+            </div>
+            <div class="mb-3">
+                {{ form_widget(form.submit) }}
+            </div>
+        {{ form_end(form) }}
+    </div>
+</div>
+{% endblock %}

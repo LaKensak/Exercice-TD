@@ -1,0 +1,42 @@
+nav:
+    home: "Accueil"
+    images: "Images"
+    menu: "Menu"
+    login: "Se connecter"
+    register: "S'inscrire"
+    logout: "Se deconnecter"
+    users: "Utilisateurs"
+
+user:
+    list:
+        title: "Liste des utilisateurs"
+        id: "ID"
+        email: "Email"
+        empty: "Aucun utilisateur enregistre"
+
+registration:
+    title: "Inscription"
+    email: "Email"
+    password: "Mot de passe"
+    password_confirm: "Confirmer le mot de passe"
+    submit: "S'inscrire"
+    success: "Merci %email% pour votre inscription"
+    already_registered: "Deja inscrit ?"
+    email_exists: "Cet email est deja utilise."
+
+login:
+    title: "Connexion"
+    email: "Email"
+    password: "Mot de passe"
+    submit: "Se connecter"
+    error: "Email ou mot de passe incorrect."
+    not_registered: "Pas encore inscrit ?"
+
+home:
+    title: "Accueil"
+    welcome: "Bienvenue sur le site"
+
+image:
+    title: "Site Image"
+    welcome: "Bienvenue sur le site de gestion d'images."
+    use_menu: "Utilisez le menu pour parcourir et telecharger les images disponibles."

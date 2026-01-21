@@ -1,0 +1,18 @@
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+    </a>
+    <ul class="dropdown-menu">
+        {% if images is empty %}
+            <li><span class="dropdown-item text-muted">Aucune image</span></li>
+        {% else %}
+            {% for image in images %}
+                <li>
+                    <a class="dropdown-item" href="{{ path('img_data', {reference: image.reference}) }}">
+                        {{ image.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+</li>

@@ -1,0 +1,7 @@
+registration.email.not_blank: "L'email est obligatoire."
+registration.email.invalid: "L'email n'est pas valide."
+registration.password.not_blank: "Le mot de passe est obligatoire."
+registration.password.mismatch: "Les mots de passe ne correspondent pas."
+registration.password.invalid: "Le mot de passe doit contenir au moins 8 caracteres, une majuscule, une minuscule, un chiffre et un caractere special (@$!%*?&)."
+login.email.not_blank: "L'email est obligatoire."
+login.password.not_blank: "Le mot de passe est obligatoire."

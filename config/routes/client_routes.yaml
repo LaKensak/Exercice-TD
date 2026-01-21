@@ -1,0 +1,7 @@
+
+
+client_info:
+    path: /client/prenom/{prenom}
+    controller: App\Controller\ClientController::info
+    requirements:
+        prenom: '[a-zA-Z]+(-[a-zA-Z]+)*'

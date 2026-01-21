@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'user.list.title'|trans }}{% endblock %}
+
+{% block body %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>{{ 'user.list.title'|trans }}</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>{{ 'user.list.id'|trans }}</th>
+                    <th>{{ 'user.list.email'|trans }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>{{ user.email }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="2">{{ 'user.list.empty'|trans }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

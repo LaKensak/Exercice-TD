@@ -1,0 +1,7 @@
+registration.email.not_blank: "Email is required."
+registration.email.invalid: "Email is not valid."
+registration.password.not_blank: "Password is required."
+registration.password.mismatch: "Passwords do not match."
+registration.password.invalid: "Password must contain at least 8 characters, one uppercase, one lowercase, one digit and one special character (@$!%*?&)."
+login.email.not_blank: "Email is required."
+login.password.not_blank: "Password is required."

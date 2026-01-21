@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Site Image{% endblock %}
+
+{% block navbar_extra %}
+    {{ render(controller('App\\Controller\\ImageController::menu')) }}
+{% endblock %}
+
+{% block body %}
+    <h1>Site</h1>
+    <p>Voici mon site.</p>
+{% endblock %}
